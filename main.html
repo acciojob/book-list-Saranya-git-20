@@ -10,24 +10,29 @@
 	<!-- the entire body must be written by student -->
 	<h1>MyBookList</h1>
 	<div class="form-group">
-		<label for="title">Title</label>
-		<input id="title" type="text"><br>
-		<label for="author">Author</label>
-		<input id="author" type="text"><br>
-		<label for="isbn"> ISBN#</label>
-		<input id="isbn" type="number"><br>
-		<button onclick="addvalue()" id="submit" value="submit">Submit</button>
-	</div>
-	<table class="table table-striped">
-		<thead>
-			<td>Title</td>
-			<td>Author</td>
-			<td>ISBN#</td>
-		</thead>
-		<tbody id=book-list>
-			
-		</tbody>
-	</table>
+  <label for="title">Title</label>
+  <input id="title" type="text"><br>
+
+  <label for="author">Author</label>
+  <input id="author" type="text"><br>
+
+  <label for="isbn">ISBN#</label>
+  <input id="isbn" type="number"><br>
+
+  <button onclick="addvalue()" id="submit">Submit</button>
+</div>
+<table class="table table-striped" border="1">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Author</td>
+      <td>ISBN#</td>
+    </tr>
+  </thead>
+  <tbody id="book-list">
+    <!-- New rows go here -->
+  </tbody>
+</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
