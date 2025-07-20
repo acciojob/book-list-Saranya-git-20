@@ -14,7 +14,7 @@
     cell1.innerHTML = title;
     cell2.innerHTML = author;
     cell3.innerHTML = isbn;
-    cell4.innerHTML = `<span class="delete-btn" onclick="deleteRow(this)">&times;</span>`;
+    cell4.innerHTML = `<span class="delete" onclick="deleteRow(this)">&times;</span>`;
 }
 
 function deleteRow(btn) {
